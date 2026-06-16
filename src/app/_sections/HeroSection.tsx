@@ -228,7 +228,7 @@ export function HeroSection() {
 
         {/* Main headline */}
         <h1
-          className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl leading-[1.05] text-white w-full whitespace-nowrap"
+          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl leading-[1.05] text-white w-full"
           style={{
             fontFamily: "'Inter', 'DM Sans', system-ui, sans-serif",
             fontWeight: 400,
@@ -246,16 +246,16 @@ export function HeroSection() {
           className="text-xl lg:text-2xl xl:text-3xl font-light max-w-3xl leading-relaxed"
           style={{ color: "rgba(255,255,255,0.45)", letterSpacing: "0.01em" }}
         >
-          Exponential growth through AI next focus and strategic distribution.
+          Exponential growth through AI next focus and large scale distribution.
         </p>
 
         {/* AI Next strip */}
         <div
-          className="flex items-center gap-3 px-6 py-3 rounded-2xl text-sm mt-1"
+          className="flex items-center gap-3 px-6 py-3 rounded-2xl text-base md:text-lg mt-1"
           style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.07)" }}
         >
           <span
-            className="text-xs font-bold tracking-widest uppercase whitespace-nowrap"
+            className="text-sm font-bold tracking-widest uppercase whitespace-nowrap"
             style={{ color: "rgba(255,255,255,0.3)" }}
           >
             AI Next
